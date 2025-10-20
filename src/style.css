@@ -1,0 +1,23 @@
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .card {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+
+    .pictures {
+      max-width: 100px;
+    }
+  }
+}
